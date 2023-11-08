@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.Nav.CodeAnalysis">
+      <HintPath>C:\Conferences\MicrosoftALExtension\win32\Microsoft.Dynamics.Nav.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.CodeAnalysis.Workspaces">
+      <HintPath>C:\Conferences\MicrosoftALExtension\win32\Microsoft.Dynamics.Nav.CodeAnalysis.Workspaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Nav.EditorServices.Protocol">
+      <HintPath>C:\Conferences\MicrosoftALExtension\win32\Microsoft.Dynamics.Nav.EditorServices.Protocol.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
